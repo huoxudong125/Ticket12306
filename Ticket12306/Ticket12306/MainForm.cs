@@ -51,12 +51,12 @@ namespace Ticket12306
             groupBox1.Visible = chkAutoOrder.Checked;
             if (!chkAutoOrder.Checked)
             {
-                plQueryInfo.Location = new Point(9, 120);
+                plQueryInfo.Location = new Point(9, 130);
                 plQueryInfo.Height = 509;
             }
             else
             {
-                plQueryInfo.Location = new Point(9, 220);
+                plQueryInfo.Location = new Point(9, 230);
                 plQueryInfo.Height = 409;
             }
             autoBuyFlag = chkAutoOrder.Checked;
