@@ -39,12 +39,13 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Interop.MSScriptControl">
-      <HintPath>..\..\Dll\Interop.MSScriptControl.dll</HintPath>
+    <Reference Include="interop.msscriptcontrol">
+      <HintPath>Lib\interop.msscriptcontrol.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
-    <Reference Include="Newtonsoft.Json.Net35">
-      <HintPath>D:\TFSRoot\A4商务产品研发\WebSites\WeiXin\Src\WeiXinTong\WeiXin.Bll\bin\Debug\Newtonsoft.Json.Net35.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

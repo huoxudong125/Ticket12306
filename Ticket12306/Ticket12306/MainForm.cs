@@ -20,7 +20,7 @@ namespace Ticket12306
         public MainForm()
         {
             InitializeComponent();
-            plQueryInfo.Location = new Point(9, 120);
+            plQueryInfo.Location = new Point(9, 130);
             plQueryInfo.Height = 509;
             KeyLoginState();
         }
@@ -56,7 +56,7 @@ namespace Ticket12306
             }
             else
             {
-                plQueryInfo.Location = new Point(9, 230);
+                plQueryInfo.Location = new Point(9, 240);
                 plQueryInfo.Height = 409;
             }
             autoBuyFlag = chkAutoOrder.Checked;
